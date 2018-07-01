@@ -1,0 +1,8 @@
+{
+  "name": "sample-graphqlexplore",
+  "version": "1.0.0",
+  "description": "exploring graph ql on a node server, for the purpose of spinning up small client facing bff servers",
+  "main": "server.js",
+  "author": "claytonmstewart@gmail.com",
+  "license": "MIT"
+}
