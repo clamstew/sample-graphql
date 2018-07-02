@@ -4,5 +4,17 @@
   "description": "exploring graph ql on a node server, for the purpose of spinning up small client facing bff servers",
   "main": "server.js",
   "author": "claytonmstewart@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js",
+    "starttwo": "nodemon server2.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "node-fetch": "^2.1.2",
+    "nodemon": "^1.17.5",
+    "prettier": "^1.13.7"
+  }
 }
